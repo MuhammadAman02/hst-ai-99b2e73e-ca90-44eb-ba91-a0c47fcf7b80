@@ -1,0 +1,18 @@
+# Auto-generated requirements for production deployment
+# All versions intentionally unspecified to avoid conflicts
+# Run: pip install -r requirements.txt
+
+# Core Framework
+nicegui
+
+# Web Server
+uvicorn[standard]
+
+# Configuration
+python-dotenv
+
+# HTTP Client for external APIs
+httpx
+
+# To verify installation:
+# python -c "import nicegui, uvicorn, python_dotenv, httpx; print('All dependencies installed successfully')"
